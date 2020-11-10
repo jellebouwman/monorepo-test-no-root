@@ -1,0 +1,7 @@
+stages:
+  faile:
+    cmd: echo "fail" > test
+    deps:
+    - README.md
+    outs:
+    - test
