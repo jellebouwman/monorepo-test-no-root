@@ -1,0 +1,5 @@
+artifacts:
+  mymodel:
+    type: model
+    path: ../model.pkl
+    desc: "Referencing same model but from 'nested-dir'"

@@ -1,3 +1,18 @@
+artifacts:
+  mymodel:
+    path: model.pkl
+    desc: "My model for s3 folder - should appear in Model Registry"
+    labels:
+    - model
+    - s3
+    type: model
+    meta:
+      some: metadata
+  data:
+    path: data/prepared
+    type: data
+    desc: "Data for the project - should appear in Data Registry"
+
 stages:
   prepare:
     cmd: python src/prepare.py data/data.xml
