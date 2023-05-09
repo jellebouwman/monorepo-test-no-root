@@ -19,6 +19,9 @@ artifacts:
   another-model-4:
     path: another-path-4
     type: model
+  another-model-5:
+    path: some-path
+    type: model
 stages:
   prepare:
     cmd: python src/prepare.py data/data.xml
