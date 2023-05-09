@@ -28,6 +28,9 @@ artifacts:
   some-demo-name:
     path: path-to-my-file
     type: model
+  test-ivan-path:
+    path: ivan-path
+    type: model
 stages:
   prepare:
     cmd: python src/prepare.py data/data.xml
