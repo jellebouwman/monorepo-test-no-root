@@ -31,6 +31,9 @@ artifacts:
   test-ivan-path:
     path: ivan-path
     type: model
+  new-model-name-to-fix:
+    path: new-path-to-fix
+    type: model
 stages:
   prepare:
     cmd: python src/prepare.py data/data.xml
