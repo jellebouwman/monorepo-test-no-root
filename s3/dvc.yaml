@@ -25,6 +25,9 @@ artifacts:
   model-name-2:
     path: some-model
     type: model
+  some-demo-name:
+    path: path-to-my-file
+    type: model
 stages:
   prepare:
     cmd: python src/prepare.py data/data.xml
